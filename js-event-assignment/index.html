@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <!-- Link to the external stylesheet for clean, reusable styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Interactive Web Page</h1>
+        <p>Experience dynamic event handling and interactive elements using JavaScript!</p>
+    </header>
+
+    <!-- Event Handling Section -->
+    <section id="eventHandling">
+        <h2>Event Handling Examples</h2>
+        <!-- Button that triggers an alert when clicked -->
+        <button id="clickButton">Click Me!</button>
+
+        <!-- Hover Effect Button -->
+        <button id="hoverButton">Hover Over Me!</button>
+
+        <!-- Input for Keypress Detection -->
+        <input type="text" id="keypressInput" placeholder="Type something..." />
+        <div id="keypressOutput">
+            <p>Press a key...</p>
+        </div>
+    </section>
+
+    <!-- Interactive Elements Section -->
+    <section id="interactiveElements">
+        <h2>Interactive Elements</h2>
+        
+        <!-- Color change button -->
+        <button id="colorChangeButton">Change Text and Color</button>
+
+        <!-- Slideshow Gallery -->
+        <h3>Image Gallery</h3>
+        <div class="slideshow">
+            <img id="galleryImage" src="gallery.jpg" alt="Gallery Image">
+        </div>
+        <button id="nextSlideButton">Next Slide</button>
+
+        <!-- Tabs for content switching -->
+        <h3>Tabs</h3>
+        <div class="tabs">
+            <button class="tabButton" data-tab="tab1">Tab 1</button>
+            <button class="tabButton" data-tab="tab2">Tab 2</button>
+            <div class="tabContent" id="tab1">
+                <p>This is Tab 1 content.</p>
+            </div>
+            <div class="tabContent" id="tab2">
+                <p>This is Tab 2 content.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Validation Section -->
+    <section id="formValidation">
+        <h2>Form Validation</h2>
+        <!-- Simple form with validation -->
+        <form id="myForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailFeedback"></span>
+
+            <label for="password">Password (min 8 characters):</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Link to the JavaScript file for interactivity -->
+    <script src="script.js"></script>
+</body>
+</html>

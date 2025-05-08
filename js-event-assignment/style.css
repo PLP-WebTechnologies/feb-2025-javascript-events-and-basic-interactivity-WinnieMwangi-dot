@@ -1,0 +1,113 @@
+/* General Reset for Consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#interactiveElements .slideshow {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+#interactiveElements img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tabButton {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tabButton:hover {
+    background-color: #0056b3;
+}
+
+.tabContent {
+    display: none;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Error feedback styling */
+#emailFeedback {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Form submit button styling */
+form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+}
